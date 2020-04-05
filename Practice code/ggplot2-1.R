@@ -12,11 +12,6 @@ head(salaries)
 str(salaries)
 summary(salaries)
 
-
-
-
-
-
 ranks <- table(salaries$rank)
 
 pie(ranks)
